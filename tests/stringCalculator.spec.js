@@ -13,4 +13,8 @@ describe("string calculator", () => {
     it("should be return string as array", () => {
         expect(stringCalculator.getArrayWithNumbers('1')).to.eql([1]);
     });
+
+    it("should be return string as array", () => {
+        expect(stringCalculator.getArrayWithNumbers('1,2,3')).to.eql([1,2,3]);
+    });
 })
