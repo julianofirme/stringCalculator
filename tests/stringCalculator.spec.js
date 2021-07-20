@@ -10,7 +10,7 @@ describe("string calculator", () => {
         expect(stringCalculator.getNumbers('')).to.equal(0);
     });
 
-    it("should be return string as number", () => {
-        expect(stringCalculator.getNumbers('1')).to.equal(1);
+    it("should be return string as array", () => {
+        expect(stringCalculator.getNumbers('1')).to.equal([1]);
     });
 })
