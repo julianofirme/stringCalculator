@@ -1,5 +1,5 @@
-function getNumbers() {
-    return 1;
+function getNumbers(number) {
+    return number;
 }
 
 module.exports = { 
