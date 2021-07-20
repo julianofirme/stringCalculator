@@ -5,8 +5,10 @@ function getNumbers(numberString) {
 }
 
 function getArrayWithNumbers(numberString) {
+    const splitString = /[\n,]/
+
     const numSplit = numberString
-        .split(/[\n,]/)
+        .split(splitString)
         .map(num => parseFloat(num));
 
     return numSplit;
