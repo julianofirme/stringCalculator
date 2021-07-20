@@ -24,6 +24,8 @@ function getSumByArray(numbers) {
     return sum;
 }
 
+
+
 module.exports = { 
     getNumbers,
     getArrayWithNumbers,

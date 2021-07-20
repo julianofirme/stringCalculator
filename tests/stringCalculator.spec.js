@@ -29,4 +29,8 @@ describe("string calculator", () => {
   it("should be return sum by array elements", () => {
     expect(stringCalculator.getSumByArray([1, 2, 3])).to.eql(6);
   });
+
+  it("should be return sum by string", () => {
+    expect(stringCalculator.getSumByArray("1,2\n3")).to.eql(6);
+  });
 });
