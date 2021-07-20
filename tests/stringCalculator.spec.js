@@ -11,6 +11,6 @@ describe("string calculator", () => {
     });
 
     it("should be return string as array", () => {
-        expect(stringCalculator.getNumbers('1')).to.equal([1]);
+        expect(stringCalculator.getArrayWithNumbers('1')).to.eql([1]);
     });
 })
