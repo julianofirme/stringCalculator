@@ -21,4 +21,8 @@ describe("string calculator", () => {
   it("should be return string as array of numbers separated by line breaker", () => {
     expect(stringCalculator.getArrayWithNumbers("1\n2\n3")).to.eql([1, 2, 3]);
   });
+
+  it("should be return string as array of numbers separated by line breaker and comma", () => {
+    expect(stringCalculator.getArrayWithNumbers("1,2\n3")).to.eql([1, 2, 3]);
+  });
 });
