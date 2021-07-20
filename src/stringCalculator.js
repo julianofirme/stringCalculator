@@ -4,6 +4,15 @@ function getNumbers(numberString) {
     return parseFloat(numberString);
 }
 
+
+function getSumByStrings(numberString) {
+    
+    const numbers = getArrayWithNumbers(numberString);
+    const sum = getSumByArray(numbers)
+
+    return sum;
+}
+
 function getArrayWithNumbers(numberString) {
     const splitString = /[\n,]/
 
@@ -25,9 +34,9 @@ function getSumByArray(numbers) {
 }
 
 
-
 module.exports = { 
     getNumbers,
     getArrayWithNumbers,
-    getSumByArray
+    getSumByArray,
+    getSumByStrings
  };
