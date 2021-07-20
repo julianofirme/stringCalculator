@@ -17,9 +17,11 @@ function getArrayWithNumbers(numberString) {
 function getSumByArray(numbers) {
     let sum = 0;
     
-    sum = numbers[0] + numbers[1] + numbers[2];
+    for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i];   
+    }
 
-    return sum
+    return sum;
 }
 
 module.exports = { 
