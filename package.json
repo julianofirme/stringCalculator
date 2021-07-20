@@ -1,0 +1,14 @@
+{
+  "name": "string-calculator-coverage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "nyc mocha ./tests/**/*.spec.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.2",
+    "nyc": "^15.1.0"
+  }
+}
