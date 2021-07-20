@@ -14,7 +14,16 @@ function getArrayWithNumbers(numberString) {
     return numSplit;
 }
 
+function getSumByArray(numbers) {
+    let sum = 0;
+    
+    sum = numbers[0] + numbers[1] + numbers[2];
+
+    return sum
+}
+
 module.exports = { 
     getNumbers,
-    getArrayWithNumbers
+    getArrayWithNumbers,
+    getSumByArray
  };
