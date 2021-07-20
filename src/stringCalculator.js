@@ -1,9 +1,7 @@
-function getNumbers(numberAsString) {
-    if(numberAsString === '') {
-        return 0;
-    }
+function getNumbers(numberString) {
+    if(numberString === '') return 0;
 
-    return numberAsString;
+    return numberString;
 }
 
 module.exports = { 
