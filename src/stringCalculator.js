@@ -12,8 +12,6 @@ function getArrayWithNumbers(numberString) {
     return numSplit;
 }
 
-console.log(getArrayWithNumbers('1'))
-
 module.exports = { 
     getNumbers,
     getArrayWithNumbers
