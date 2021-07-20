@@ -6,7 +6,7 @@ function getNumbers(numberString) {
 
 function getArrayWithNumbers(numberString) {
     const numSplit = numberString
-        .split(",")
+        .split(/[\n,]/)
         .map(num => parseFloat(num));
 
     return numSplit;
