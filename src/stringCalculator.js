@@ -14,7 +14,7 @@ function getSumByStrings(numberString) {
 }
 
 function getArrayWithNumbers(numberString) {
-    const splitString = /[\n,]/
+    const splitString = /[\n,*;:]/
 
     const numSplit = numberString
         .split(splitString)

@@ -33,4 +33,8 @@ describe("string calculator", () => {
   it("should be return sum by string", () => {
     expect(stringCalculator.getSumByStrings("1,2\n3")).to.equal(6);
   });
+
+  it("should be return sum by string", () => {
+    expect(stringCalculator.getSumByStrings("1,2\n3*4:5")).to.equal(15);
+  });
 });
