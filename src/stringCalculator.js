@@ -5,14 +5,11 @@ function getNumbers(numberString) {
 }
 
 function getArrayWithNumbers(numberString) {
-    const arrayNumbers = []
     const numSplit = numberString
         .split(",")
-    
-    const getNumber = parseFloat(numSplit[0]);
-    arrayNumbers.push(getNumber);
+        .map(num => parseFloat(num));
 
-    return arrayNumbers;
+    return numSplit;
 }
 
 console.log(getArrayWithNumbers('1'))
