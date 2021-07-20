@@ -1,4 +1,4 @@
-function getNumbers(num) {
+function getNumbers() {
 
 }
 
