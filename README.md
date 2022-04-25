@@ -1,5 +1,1 @@
-# string-calculator
-# stringCalculator
-# stringCalculator
-# stringCalculator
-# stringCalculator
+### TDD studies.
